@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>International Foods</title>
+    <link rel="stylesheet" href="if.css">
+</head>
+<body>
+    <center>
+        <iframe src="navbar.html"></iframe>
+        <style>
+            iframe{
+                overflow: hidden;
+                width: 100%;
+                height: 90px;
+                
+            }
+        </style>
+    </center>
+    <button>
+        <div class="egg" id="egg" onclick="buy()">
+            
+            <label>Eggs</label>
+            <br>
+            <img src="egg.png" height="300px">
+            <br>
+            <br>
+            <br>
+            
+            <div class="facts">
+                <label class="price">$1.24</label>
+                <br>
+                <label >Great balue Large White Eggs, 12 count</label>
+                <br>
+                
+                <label class="EBT"> ( EBT eligible )</label>
+                <br>
+                
+            </div>
+            
+        </div>
+        
+        
+    </button>
+   
+    
+    <script>
+
+        egg.addEventListener('click', () => {
+        window.open('egg.html', '_blank');
+        });
+    </script>
+
+
+        
+</body>
+</html>

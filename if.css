@@ -1,0 +1,9 @@
+.ab{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+}
+.price{
+    font-size: 30px;
+}

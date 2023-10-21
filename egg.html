@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        .title{
+            font-size: 30px;
+            font-family: 'Inconsolata', monospace;
+        }
+        .Q{
+            border: 5px;
+            border-color: black;
+        }
+        .anb{
+            width: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    </style>
+    
+</head>
+<body>
+
+    <iframe src="navbar.html"></iframe>
+        <style>
+            iframe{
+                overflow: hidden;
+                width: 100%;
+                height: 90px;
+                
+            }
+        </style>
+
+    <center>
+        <header class="title">EGG</header>
+        <br><br><br>
+        <span>
+            <button class="b1">
+                <img class="i1" src="egg.png">
+            </button>
+            <style>
+                .b1{
+                    height: 300px;
+                }
+                .i1{
+                    height: 280px;
+                }
+            </style>
+            
+            <button class="b1">
+                <img class="i1" src="eggs.png">
+            </button>
+            <style>
+                .b1{
+                    height: 300px;
+                    margin-left: 20px;
+                }
+                .i1{
+                    height: 280px;
+                }
+            </style>
+        
+        <button class="b1">
+            <img class="i1" src="eggnut.png">
+        </button>
+        <style>
+            .b1{
+                height: 300px;
+                margin-left: 20px;
+            }
+            .i1{
+                height: 280px;
+            }
+        </style>
+        <br>
+        <br>
+        <button>
+            <div class="facts">
+                <label class="price">$1.24</label>
+                <br>
+                <label>Great balue Large White Eggs, 12 count</label>
+                <br>
+                
+                <label class="EBT"> ( EBT eligible )</label>
+                <br>
+            
+            </div>
+        </button>
+        <br>
+        <br>
+        </span>
+        <div class="anb">
+            
+                <button>Add To Cart</button>
+                <button id="add">+</button>
+                
+                <div id ="result" min = "0">1</div>
+                
+                <button id="minus" min = >-</button>
+                <button id="pb">Buy Now</button>
+                <script>
+                    let count = 1;
+                    add.addEventListener("click", () => {
+                        result.textContent = count + 1;
+                        count++;
+                    });
+                    minus.addEventListener("click", () => {
+                        result.textContent = count - 1;
+                        count--;
+                        
+                    });
+
+
+                    pb.addEventListener('click', () => {
+                        window.open('https://example.com', '_blank');
+                    });
+
+                    
+                </script>
+            
+        </div>
+    </center>
+</body>
+</html>

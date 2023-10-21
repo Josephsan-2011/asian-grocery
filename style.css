@@ -5,18 +5,87 @@
     font-family: 'Incosolata', monospace;
 }
 
+.input_sector{
+    width: max-content;
+}
+input{
+    width: max-content;
+    width: 100%;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    position: absolute;
+    padding: 0%;
+    
+}
+
 .container {
     display: flex;
     margin-top: 200px;
     width: 100%;
     
+    
     align-items: center;
     justify-content: space-between;
 }
-
-label{
-    color: #fff;
+/*Buttons*/
+#rm{
+    border-radius: 100px;
+    background-image: url(rm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    background-color: #24273c;
+    border: none;
 }
+#beauty{
+    border-radius: 100px;
+    background-image: url(beauty.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    background-color: #24273c;
+    border: none;
+}
+#home{
+    border-radius: 100px;
+    background-image: url(plate.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    background-color: #24273c;
+    border: none;
+}
+#veggie{
+    border-radius: 100px;
+    background-image: url(vegi.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    background-color: #24273c;
+    border: none;
+}
+#mp{
+    border-radius: 100px;
+    background-image: url(meat.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    background-color: #24273c;
+    border: none;
+}
+
+
+
+
+
 
 #logo {
     
@@ -24,11 +93,15 @@ label{
 }
 
 body{
+    padding: 0%;
     height: 100vh;
-    background-color: #24273c;
+    background-color: #323233;
+    display: flex;
     
-    background-position: center;
-    background-size: cover;
+    
+    justify-content: center;
+    
+    
 } 
 
 li{ 
@@ -50,14 +123,25 @@ header {
 
 }
 
+.slider{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    border-color: #11112f;
+}
+
 .navbar{
+    margin: 0;
     width: 100%;
-    height: 60px;
-    max-width: 1200px;
-    margin-top: 20px;
+    height: 70px;
+    max-width: 2000px;
+    
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    
+    top: 0;
+    background: #24273c;
 }
 
 .navbar .logo a{
@@ -94,7 +178,7 @@ header {
 .dropdown_menu{
     display: none;
     position:absolute;
-    right: 2rem;
+    right: 10rem;
     top: 60px;
     height: 0;
     width:300px;
@@ -109,6 +193,10 @@ header {
     height:240px;
 }
 
+label{
+    color: #fff;
+}
+
 .dropdown_menu li{
     padding: 0.7rem;
     display: flex;
@@ -121,11 +209,13 @@ header {
     width: 100%;
     display:flex;
     justify-content: center;
+    font-size: 20px;
 }
 
 .action_btn:hover {
     scale: 1.05;
     color: #fff;
+    
 }
 .action_btn:active{
     scale: 0.95;
@@ -148,4 +238,5 @@ header {
     .dropdown_menu {
         display: block;
     }
+   
 }
