@@ -21,6 +21,8 @@ header{
     
 }
 
+
+
 .container {
     display: flex;
     margin-top: 200px;
@@ -238,5 +240,9 @@ label{
     .dropdown_menu {
         display: block;
     }
-   
+    
+    .container{
+        display: block;
+    }
+
 }
